@@ -1,3 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
+    /* margin: 0; */
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    
     background-color: #F3F5FC;
+
+}
+
+.container{
+    display: flex;
+    gap: 200px;
+}
+
+.container-logo .logo{
+    position: relative;
+    top: 5px;
+}
+
+main{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    flex-wrap: wrap;
+}
+
+/* Area donde se escriben los mensajes */
+.area-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+#texto{
+    resize: none;
+    outline: none;
+    height: 300px;
+    width: 600px;
+    font-size: 25px;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: none;
+}
+
+#texto::placeholder{
+    color: #0A3871;
+}
+
+/*Botones*/
+
+.botones{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+}
+
+#btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: white;
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 67px;
+    width: 328px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*Sección donde se muestran los mensajes*/
+
+.area-2{
+    background-color: white;
+    height: 650px;
+    width: 370px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    position: relative;
+}
+
+/* Elementos cuando se tenga mensaje */
+
+#resultado{
+    border: none;
+    resize: none;
+    width: 300px;
+    font-size: 26px;
+    color: #0A3871;
+    outline: none;
+    position: relative;
+    top: 60px;
+    left: 36px;
+    display: none;
+}
+
+#copiarTexto{
+    display: none;
+    width: 336px;
+    height: 67px;
+    font-size: 18px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: white;
+    position: absolute;
+    top: 570px;
+    right: 15px;
+    cursor: pointer;
+}
+
+#copiarTexto:hover{
+    background-color: #2e5b92;
+    color: white;
+    transition: 0.5s;
+}
+
+/* Area que se mostrara cuando no haya mensaje */
+
+#muneco{
+    position: absolute;
+    left: 25px;
+    top: 90px;
+}
+
+
+.sin-texto{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 420px;
+}
+
+.sin-texto h2{
+    width: 80%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #343A40;
+    margin: 0;
+}
+
+.sin-texto p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #343A40;
+    width: 90%;
+    margin: 0;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+footer img{
+    width: 30px;
 }

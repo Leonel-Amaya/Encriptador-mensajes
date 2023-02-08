@@ -20,6 +20,7 @@ body{
 .container-logo .logo{
     position: relative;
     top: 5px;
+    
 }
 
 main{
@@ -53,6 +54,24 @@ main{
 
 #texto::placeholder{
     color: #0A3871;
+}
+
+/*  */
+.informacion{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.informacion img{
+    width: 20px;
+}
+
+.informacion h6{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #495057;
+    margin: 0;
 }
 
 /*Botones*/

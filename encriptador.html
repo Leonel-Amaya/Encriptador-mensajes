@@ -19,16 +19,22 @@
                 <div class="escrituraMensaje">
                     <textarea type="text" id="texto" placeholder="Ingrese el texto aquí"></textarea>
                 </div>
+                <div class="inferior">
+                    <div class="informacion">
+                        <img src="info.svg" alt="Simbolo informacion">
+                        <h6>Solo letras minúsculas y sin acentos</h6>
+                    </div>
                 
-                <div class="botones">
-                    <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
-                    <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                    <div class="botones">
+                        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                        <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                    </div>
                 </div>
             </section>
             
             <section class="area-2">
                 <textarea name="" id="resultado" cols="30" rows="10"></textarea>
-                <img src="Muneco.png" alt="" id="muneco">
+                <img src="Muneco.svg" alt="Sin resultado" id="muneco">
                 <div class="sin-texto">
                     <h2 id="subtitulo">Ningún mensaje fue encontrado</h2>
                     <p id="parrafo">Ingrese el texto que desees encriptar o desencriptar</p>

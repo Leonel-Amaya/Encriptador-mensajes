@@ -39,3 +39,9 @@ function desencriptar(){
     document.getElementById("copiarTexto").style.display="show";
     document.getElementById("copiarTexto").style.display="inherit";
 }
+
+function copiar(){
+    resultado.select();
+    navigator.clipboard.writeText(resultado.value);
+    alert("Texto Copiado");
+}

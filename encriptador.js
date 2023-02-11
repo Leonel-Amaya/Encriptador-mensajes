@@ -11,9 +11,16 @@ function encriptar(){
     document.getElementById("resultado").style.display="show";
     document.getElementById("resultado").style.display="inherit";
 
-    document.getElementById("muneco").style.visibility="hidden";
-    document.getElementById("subtitulo").style.visibility="hidden";
-    document.getElementById("parrafo").style.visibility="hidden";
+    //Que se ajuste la altura del texarea en funcion del contenido
+    const elemento = document.getElementById("resultado");
+    elemento.style.height = elemento.scrollHeight + "px";
+
+    // document.getElementById("muneco").style.visibility="hidden";
+    // document.getElementById("subtitulo").style.visibility="hidden";
+    // document.getElementById("parrafo").style.visibility="hidden";
+
+    document.getElementById("muneco").style.display="none";
+    document.getElementById("no-texto").style.display="none";
 
     document.getElementById("copiarTexto").style.display="show";
     document.getElementById("copiarTexto").style.display="inherit";

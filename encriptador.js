@@ -12,8 +12,8 @@ function encriptar(){
     document.getElementById("resultado").style.display="inherit";
 
     //Que se ajuste la altura del texarea en funcion del contenido
-    const elemento = document.getElementById("resultado");
-    elemento.style.height = elemento.scrollHeight + "px";
+    // const elemento = document.getElementById("resultado");
+    // elemento.style.height = elemento.scrollHeight + "px";
 
     // document.getElementById("muneco").style.visibility="hidden";
     // document.getElementById("subtitulo").style.visibility="hidden";

@@ -17,6 +17,6 @@ Pueden probar el encriptador [aquí](https://leonel-amaya.github.io/Encriptador-
 ## Contacto
 Para contactarme pueden usar mis redes
 
-**LinkedIn:** https://www.linkedin.com/in/leonelamaya/
+**LinkedIn:** [Leonel Amaya](https://www.linkedin.com/in/leonelamaya/ "Leonel Amaya")
 
  **Gmail:** leo.amaya2099@gmail.com
